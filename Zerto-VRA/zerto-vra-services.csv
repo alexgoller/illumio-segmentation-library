@@ -1,0 +1,5 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+VRA2VRA [Zerto],Zerto VRA to VRA communication,FALSE,4007,tcp,,,0,0
+VRA2VRA [Zerto],Zerto VRA to VRA communication,FALSE,4008,tcp,,,0,0
+Secure VRA2VRA [Zerto],Zerto VRA to VRA communication,FALSE,9007,tcp,,,0,0
+Secure VRA2VRA [Zerto],Zerto VRA to VRA communication,FALSE,9008,tcp,,,0,0

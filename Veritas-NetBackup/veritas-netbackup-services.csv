@@ -1,0 +1,2 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+NetBackup [Veritas],NetBackup Main Port,FALSE,1556,tcp,,,0,0

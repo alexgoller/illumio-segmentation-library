@@ -1,0 +1,4 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+ePO agent [McAfee],Inbound from ePo and agent handler,FALSE,8081,tcp,,,0,0
+ePO agent [McAfee],Inbound from ePo and agent handler,FALSE,8082,udp,,,0,0
+ePO relay [McAfee],Inbound from ePo and agent handler,FALSE,8083,udp,,,0,0
