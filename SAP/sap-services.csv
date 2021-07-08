@@ -1,0 +1,16 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+SAP Dispatcher,,false,3200-3299,tcp,,,0,0
+SAP Dispatcher,,false,3200-3299,udp,,,0,0
+SAP GW,,false,3300-3399,tcp,,,0,0
+SAP GW,,false,3300-3399,udp,,,0,0
+SAP GW Secured,,false,4800-4899,tcp,,,0,0
+SAP ICM HTTP,,false,8000,tcp,,,0,0
+SAP ICM HTTPS,,false,44300-44399,tcp,,,0,0
+SAP HTTP sapctrl,,false,50013,tcp,,,0,0
+SAP CTRL Secure,,false,50014,tcp,,,0,0
+SAP Message Server,,false,3600-3699,tcp,,,0,0
+SAP Message HTTP,,false,8100-8199,tcp,,,0,0
+SAP Message HTTPS,,false,44400-44499,tcp,,,0,0
+SAP Java,,false,50000-59999,tcp,,,0,0
+SAP Host Agent,saphostctrls,false,1129,tcp,,,0,0
+SAP HANA platform,indexserver,false,30015,tcp,,,0,0
