@@ -5,7 +5,7 @@ Admin Startup [Informatica],Informatica Administrator Startup,FALSE,6007,tcp,,,0
 Domain Shutdown [Informatica],,FALSE,6008,tcp,,,0,0
 Admin Shutdown [Informatica],,FALSE,6009,tcp,,,0,0
 PowerCenter Debugger [Informatica],,FALSE,9229,tcp,,,0,0
-Default Services [Informatica],,6013-6113,tcp,,,0,0
+Default Services [Informatica],,FALSE,6013-6113,tcp,,,0,0
 Administrator [Informatica],,FALSE,8443,tcp,,,0,0
 Data Integration Service [Informatica],,FALSE,8095,tcp,,,0,0
 Analyst Service [Informatica],,FALSE,8085,tcp,,,0,0
