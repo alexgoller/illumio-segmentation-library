@@ -1,0 +1,3 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+P2P [BT Powerbroker],Appliance Peer to Peer,FALSE,3478,udp,,,0,0
+Wakeup [BT Powerbroker],Wakeup service,FALSE,3478,tcp,,,0,0
