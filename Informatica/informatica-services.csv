@@ -1,0 +1,15 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+Domain [Informatica],Informatica Domain Startup,FALSE,6005,tcp,,,0,0
+Service Manager [Informatica],Informatica Service Manager,FALSE,6006,tcp,,,0,0
+Admin Startup [Informatica],Informatica Administrator Startup,FALSE,6007,tcp,,,0,0
+Domain Shutdown [Informatica],,FALSE,6008,tcp,,,0,0
+Admin Shutdown [Informatica],,FALSE,6009,tcp,,,0,0
+PowerCenter Debugger [Informatica],,FALSE,9229,tcp,,,0,0
+Default Services [Informatica],,6013-6113,tcp,,,0,0
+Administrator [Informatica],,FALSE,8443,tcp,,,0,0
+Data Integration Service [Informatica],,FALSE,8095,tcp,,,0,0
+Analyst Service [Informatica],,FALSE,8085,tcp,,,0,0
+Metadata Manager [Informatica],,FALSE,10250,tcp,,,0,0
+Metadata Manager Agent [Informatica],,FALSE,10251,tcp,,,0,0
+Reporting [Informatica],,FALSE,16080,tcp,,,0,0
+Reporting Secure [Informatica],,FALSE,16443,tcp,,,0,0
