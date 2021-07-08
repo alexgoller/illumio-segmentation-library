@@ -1,0 +1,14 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+klcsweb [Kaspersky],Push installation packages to clients,FALSE,8060,tcp,,,0,0
+klcsweb [Kaspersky],Push installation packages to clients,FALSE,8061,tcp,,,0,0
+klnagent [Kaspersky],Server and Agent comms,FALSE,13000,tcp,,,0,0
+klserver [Kaspersky],,FALSE,13000,udp,,,0,0
+klserver admin [Kaspersky],Connections to admin console,FALSE,13291,tcp,,,0,0
+klserver mobile [Kaspersky],Connections from mobile devices,FALSE,13292,tcp,,,0,0
+klserver OpenAPI [Kaspersky],Connections from mobile devices,FALSE,13299,tcp,,,0,0
+klserver Agents [Kaspersky],Connections from agents,FALSE,14000,tcp,,,0,0
+ksnproxy [Kaspersky],Connections to proxy,FALSE,13111,tcp,,,0,0
+ksnproxy [Kaspersky],Connections to proxy,FALSE,15111,udp,,,0,0
+klactprx [Kaspersky],Licensing server,FALSE,17000,tcp,,,0,0
+klactprx [Kaspersky],Licensing server,FALSE,17100,tcp,,,0,0
+klnagent [Kaspersky],Multicasting for agents,FALSE,15000-15001,udp,,,0,0
