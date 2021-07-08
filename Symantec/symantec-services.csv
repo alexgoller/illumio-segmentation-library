@@ -1,0 +1,7 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+Sample Name,Sample Descr,FALSE,1234,tcp,,,0,0
+ECC1.0 [Symantec EDR],,FALSE,8446,tcp,,,0,0
+Group Update [Symantec AV],Group Update Provider (GUP),FALSE,2967,tcp,,,0,0
+Client Auth [Symantec AV],Web and Cloud Access Protection,FALSE,2968,tcp,,,0,0
+DB [Symantec AV],Connection between the db and SEPM,FALSE,2638,tcp,,,0,0
+Client Comm [Symantec AV],Communication between SEPM (HTTP) and SEP client,FALSE,8014,tcp,,,0,0
