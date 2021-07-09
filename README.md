@@ -14,4 +14,8 @@ This package requires workloader by Brian Pitta: https://github.com/brian1917/wo
 
 # Adding products
 
-Run ./bin/add-product.sh <Your-Product>, which will copy template to the right directory and create the directory + README
+Run ./bin/add-product.sh <Your-Product>, which will
+
+* create a subdirectory called Your-Product (automatically removes spaces)
+* copy a services template to Your-Product
+* copy a README.md for the product to Your-Product/README.md
