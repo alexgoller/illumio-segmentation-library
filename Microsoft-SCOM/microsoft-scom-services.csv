@@ -1,0 +1,6 @@
+name,description,is_windows_service,ports,protocol,process_name,service_name,icmp_code,icmp_type
+SCOM [MS SCOM],SCOM Agent to Management connection,FALSE,5723-5724,tcp,,,0,0
+SCOM Discovery [MS SCOM],SCOM Unix Discovery ,FALSE,1270,tcp,,,0,0
+Audit Collection [MS SCOM],Audit Collection Services,FALSE,51909,tcp,,,0,0
+Exception monitor [MS SCOM],Exception monitoring,FALSE,51906,tcp,,,0,0
+Cust experience [MS SCOM],Customer experience monitoring,FALSE,51907,tcp,,,0,0
